@@ -28,15 +28,15 @@ env\Scripts\Activate.psl
 
 #### Example (For MAC)
 ```
-sourve env\bin\activate
+source env\bin\activate
 ```
 
 ### 4. Install the dependencies
 ```
-pop install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ### 5. Run the Server
 ```
 uvicorn main:app --reload --host 0.0.0.0
-``
+```
